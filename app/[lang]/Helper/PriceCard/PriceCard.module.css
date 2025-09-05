@@ -1,0 +1,155 @@
+/* Price Banner */
+  /* GAS PRICE SECTION */
+.consultBanner{
+    background: var(--gradient);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    color: var(--text-white);
+    margin-top: -1rem;
+    position: relative;
+    bottom: 0;
+}
+.consultLeft{
+    width: var(--max-width);
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+.consultLeft li{
+    width: 8.5rem;
+}
+
+.label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.counterCircle{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid var(--background);
+    color: var(--theme-color);
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.child:nth-child(3){
+    margin-top: 0;
+}
+.pricePart3{
+    font-size: 0.8rem;
+    position: relative;
+    top: -3px;
+}
+.gasIcon{
+    font-size: 2rem;
+}
+.timeLabel{
+    font-size: .8rem;
+    color: var(--text-white);
+    margin-top: 0.5rem;
+    display: inline-block;
+    width: 50%;
+}
+
+/* Media Queries */
+@media (width <= 80rem /* 1280px */) {
+   
+    .consultBanner{
+        width: 53rem;
+        padding: 1rem 1.5rem;
+    }
+    .consultLeft{
+        width: 52rem;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+    .label{
+    font-size: 1.2rem;  
+    }
+    .counterCircle{
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.10rem;
+        margin-top: 0.5rem;
+    }
+    .gasIcon{
+        font-size: 1.5rem;
+    }
+    .timeLabel{
+        font-size: 0.7rem;
+    }
+}
+
+@media (width <= 57rem /* 912px */) {
+    .consultBanner{
+        width: 38rem;
+        padding: 0.5rem 0.75rem;
+    }
+    .consultLeft{
+        width: 38rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+    }
+    .consultLeft li{
+    width: 100%;
+    }
+    .label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+    .counterCircle{
+        width: 2.1rem;
+        height: 2.1rem;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+    .pricePart3{
+        font-size: 0.5rem;
+    }
+    .gasIcon{
+        font-size: 1.3rem;
+    }
+}
+
+@media (width <= 40rem /* 640px */) {
+    .consultBanner{
+        width: 20rem;
+        padding: 0.7rem 0.35rem;
+    }
+    .consultLeft{
+        width: 20rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+    }
+    .label{
+    font-size: 0.9rem;
+    
+    }
+    .pricePart3{
+        font-size: 0.5rem;
+    }
+    .gasIcon{
+        font-size: 1.2rem;
+    }
+    .timeLabel{
+        font-size: 0.5rem;
+    }
+}
