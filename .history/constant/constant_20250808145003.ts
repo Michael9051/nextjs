@@ -31,7 +31,7 @@ export const NavLinks = [
     },
     {
         id: 6,
-        url: "tel:+390471633680",
+        url: "tel:+39248846",
         label: "CALL",
         class: "btn btn-primary link",
     },
