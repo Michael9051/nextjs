@@ -1,0 +1,73 @@
+{
+    "navigation": {
+        "home": "HOME",
+        "services": "SERVIZI",
+        "restaurant": "RISTORANTE",
+        "prices": "PREZZI",
+        "contact": "CONTATTI"
+    },
+    "hero" : {
+        "smallTitle" : "Stazione di Servizio",
+        "title1" : "Mebo",
+        "title2" : "Rast",
+        "subtitle" : "La tua stazione di servizio per il rifornimento di carburante e cibo"
+    },
+    "service" : {
+        "smallTitle" : "Elenco dei Servizi",
+        "title1" : "Servizi",
+        "title2" : "per cui possiamo ",
+        "title3" : "aiutarti",
+        "description" : "Offriamo una vasta gamma di servizi per soddisfare le tue esigenze.Sia che tu abbia bisogno di rifornimento di carburante, cambio olio, lavaggio auto o riparazioni, il nostro team è qui per aiutarti.",
+        "check1" : "Soddisfazione garantita",
+        "check2" : "Servizio veloce ed efficiente",
+        "check3" : "Prezzi competitivi",
+        "list" : {
+            "service1" : "Cambio Olio",
+            "service2" : "Lavaggio Auto",
+            "service3" : "Riparazione Auto",
+            "service4" : "Tagliando"
+        },
+        "button" : "Scopri di più"
+    },
+    "company" : {
+        "smallTitle" : "Cibo",
+        "title1" : "Ristorante & Bar",
+        "title2" : "Pasto Tradizionale Speciale E Altro Ancora",
+        "description" : "Il nostro ristorante offre una selezione di piatti deliziosi preparati con ingredienti freschi e di alta qualità. Sia che tu stia cercando un pranzo veloce o una cena romantica, abbiamo qualcosa per tutti.",
+        "title3" : "Cucina Calda",
+        "title4" : "Menu del Giorno"
+ 
+    },
+    "prices" : {
+        "smallTitle" : "Car Wash",
+        "title" : "Programmi",
+        "list" : {
+            "program1" : "Prelavaggio",
+            "program2" : "Prodotto lavacerchi",
+            "program3" : "Schiuma",
+            "program4" : "Alta Pressione orrizzontale",
+            "program5" : "Alta Pressione verticale",
+            "program6" : "Alta Pressione lavaruote",
+            "program7" : "Sottoscocca",
+            "program8" : "Spazzole",
+            "program9" : "Lavaruote",
+            "program10" : "Cera",
+            "program11" : "Lucidatura",
+            "program12" : "Asciugatura"
+        },
+        "check" : "I piu Venduti"
+
+    },
+    "contact" : {
+        "smallTitle" : "Contattaci",
+        "title1" : "Contatti",
+        "description" : "Per qualsiasi domanda o richiesta, non esitare a contattarci. Siamo qui per aiutarti. Compila il modulo di contatto e ti risponderemo il prima possibile. Puoi anche contattarci telefonicamente o via email.",
+        "address" : "Indirizzo dell'Ufficio:",
+        "phone" : "Numero di Telefono:",
+        "email" : "Indirizzo Email:",
+        "form" : "Modulo di Contatto",
+        "formDescription" : "Compila il modulo qui sotto."
+    },
+    "footer" : {
+    }
+}
