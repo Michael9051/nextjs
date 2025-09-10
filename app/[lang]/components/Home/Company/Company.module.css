@@ -1,6 +1,6 @@
 .foodSection{
     background: var(--gradient);
-    padding: 2rem 0;
+    padding: 2rem 0 3rem 0;
     
 }
 .foodContainer{
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 5rem 2rem;
+    padding: 5rem 2rem 0 2rem;
     text-align: center;
     
 }
@@ -110,7 +110,6 @@
     background: var(--background);
     border-radius: 3rem;
     padding: .5rem 1rem;
-  
 }
 
 .menuCard{

@@ -14,7 +14,7 @@
     color: var(--text-white);
     margin-top: -1rem;
     position: relative;
-    bottom: 0;
+    bottom: 75px;
 }
 .consultLeft{
     width: var(--max-width);

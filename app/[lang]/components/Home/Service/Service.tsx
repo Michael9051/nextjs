@@ -10,6 +10,7 @@ import { FaCheck, FaOilCan} from 'react-icons/fa'
 import { TbChecklist } from 'react-icons/tb'
 import { GiAutoRepair } from 'react-icons/gi'
 import { MdLocalCarWash } from 'react-icons/md'
+import PriceCard from '@/app/[lang]/Helper/PriceCard/PriceCard'
 
 
 // Background
@@ -31,6 +32,7 @@ export default function Service({ dictionary }: ServiceProps){
     const { service } = dictionary;
   return (
     <section className={styles.serviceSection} style={style}>
+        <PriceCard/>
             <div className={styles.serviceContainer}>
 
                 <article className={styles.serviceLeft} data-aos="fade-left">
