@@ -19,7 +19,7 @@ const MenuCard = () => {
           <br />
           Gegrilltes Schweineschnitzel mit Pommes frites und gratiniertem Brokkoli
         </p>
-        <h3 className={styles.menuPrice}>€ 15.90</h3>
+        <h3 className={styles.menuPrice}>€ 14.90</h3>
 
       </section>
 
@@ -32,7 +32,7 @@ const MenuCard = () => {
           <br />
           Conchiglie mit Ragu
       </p>
-      <h3 className={styles.menuPrice}>€ 12.90</h3>
+      <h3 className={styles.menuPrice}>€ 11.90</h3>
 
       </section>
     </div>

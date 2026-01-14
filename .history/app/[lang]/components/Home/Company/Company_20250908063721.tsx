@@ -38,7 +38,7 @@ export default function Company({ dictionary }: CompanyProps){
           <div className={styles.kitchen}>
              <div className={styles.priceContainer}>
               <h3 >{company.title4}</h3>
-              <span>15,90 €</span>
+              <span>14,90 €</span>
             </div>
 
             <div className={styles.kitchenTime}>
